@@ -3,7 +3,10 @@
     "module": "commonjs",
     "target": "es2015",
     "sourceMap": false,
-    "outDir": "../dist-server"
+    "outDir": "../dist-server",
+    "lib": [
+      "esnext.asynciterable"
+    ]
   },
   "exclude": [
     "../node_modules"
