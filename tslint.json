@@ -2,7 +2,10 @@
   "rulesDirectory": [
     "node_modules/codelyzer"
   ],
+  "extends": ["tslint:recommended"],
   "rules": {
+    "trailing-comma": [false],
+    "arrow-parens": false,
     "arrow-return-shorthand": true,
     "callable-types": true,
     "class-name": true,
